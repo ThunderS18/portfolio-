@@ -1,0 +1,72 @@
+nav {
+  position: absolute;
+  left: 0px;
+  height: 40px;
+  background-color: #60ca45;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding-bottom: 15px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  font-family: "roboto", sans-serif;
+  color: rgb(226, 220, 231);
+  word-spacing: 20px;
+}
+
+body {
+  background-color: rgb(24, 24, 29);
+  font-family: "roboto", sans-serif;
+  color: rgb(230, 220, 220);
+}
+h1 {
+  color: rgb(235, 230, 230);
+  background-color: rgb(100, 101, 151);
+  font-family: "roboto", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+h2 {
+  color: rgb(168, 154, 154);
+
+  font-family: "roboto", sans-serif;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+h3 {
+  color: rgb(168, 154, 154);
+  text-decoration: underline;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "roboto", sans-serif;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+h4 {
+  color: rgb(170, 164, 164);
+  font-size: medium;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "roboto", sans-serif;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid burlywood;
+}
+form > div > input {
+  width: 600px;
+  height: 100px;
+}
